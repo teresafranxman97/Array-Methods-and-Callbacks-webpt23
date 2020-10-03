@@ -9,11 +9,53 @@ console.log("its working");
  */
 // (a) Home Team name for 2014 world cup final
 
+for (let i = 0; i < fifaData.length; i++) {
+  //Create a for loop to loop through data set
+  if (fifaData[i].Year === 2014 && fifaData[i].Stage === "Final") {
+    // IF dataset is === 2014 AND Final
+    console.log(fifaData[i]["Home Team Name"]); // LOG HOME TEAM NAME
+  }
+}
+
 //(b) Away Team name for 2014 world cup final
+
+for (let i = 0; i < fifaData.length; i++) {
+  //Create a for loop to loop through data set
+  if (fifaData[i].Year === 2014 && fifaData[i].Stage === "Final") {
+    // IF dataset is === 2014 AND Final
+    console.log(fifaData[i]["Away Team Name"]); // LOG AWAY TEAM NAME
+  }
+}
+
 //(c) Home Team goals for 2014 world cup final
+
+for (let i = 0; i < fifaData.length; i++) {
+  //Create a for loop to loop through data set
+  if (fifaData[i].Year === 2014 && fifaData[i].Stage === "Final") {
+    // IF dataset is === 2014 AND Final
+    console.log(fifaData[i]["Home Team Goals"]); // LOG HOME TEAM GOALS
+  }
+}
+
 //(d) Away Team goals for 2014 world cup final
+
+for (let i = 0; i < fifaData.length; i++) {
+  //Create a for loop to loop through data set
+  if (fifaData[i].Year === 2014 && fifaData[i].Stage === "Final") {
+    // IF dataset is === 2014 AND Final
+    console.log(fifaData[i]["Away Team Goals"]); // LOG AWAY TEAM GOALS
+  }
+}
+
 //(e) Winner of 2014 world cup final */
 
+for (let i = 0; i < fifaData.length; i++) {
+  //Create a for loop to loop through data set
+  if (fifaData[i].Year === 2014 && fifaData[i].Stage === "Final") {
+    // IF dataset is === 2014 AND Final
+    console.log(fifaData[i]["Win conditions"]); // LOG WIN CONDITIONS
+  }
+}
 /* Task 2: Create a function called  getFinals that takes `data` as an argument and returns an array of objects with only finals data */
 
 function getFinals(data) {
@@ -25,7 +67,9 @@ console.log(getFinals(fifaData));
 
 /* Task 3: Implement a higher-order function called `getYears` that accepts the callback function `getFinals`, and returns an array called `years` containing all of the years in the dataset */
 
-function getYears(callback, data) {}
+function getYears(callback, data) {
+  let years = data;
+}
 
 getYears();
 
